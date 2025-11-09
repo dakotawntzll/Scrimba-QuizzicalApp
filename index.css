@@ -1,0 +1,31 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, body, html{
+	margin: 0;
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+	background-color: gray;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+}
+
+main{
+	width: 100%;
+	max-width: 56rem;
+	height: 100%;
+	background-color: #F5F7FB;
+	background-image: url(images/background-blobs.svg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding: 2.5rem 1rem 2.5rem 4.6rem;
+}
