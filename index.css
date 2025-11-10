@@ -12,13 +12,14 @@ body {
 	font-family: 'Karla', sans-serif;
 	background-color: #F5F7FB;
 	min-height: 100dvh;   
+	min-width: 100vw;
 	display: flex;
 	justify-content: center;	
 	align-items: center;
 }
 
 main{
-	width: 100%;
+	min-width: 100vw;
 	min-height: 100dvh;   
 	background-color: #F5F7FB;
 	padding: 2.5rem 1rem;

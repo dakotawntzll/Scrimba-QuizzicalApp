@@ -1,5 +1,5 @@
 {
-  "name": "scrimba-tenzies",
+  "name": "scrimba-quizzicalapp",
   "version": "1.0.0",
   "description": "",
   "main": "vite.config.js",
@@ -9,15 +9,22 @@
 	"build": "vite build",
 	"preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dakotawntzll/Scrimba-QuizzicalApp.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dakotawntzll/Scrimba-QuizzicalApp/issues"
+  },
+  "homepage": "https://github.com/dakotawntzll/Scrimba-QuizzicalApp#readme",
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.0",
     "nanoid": "^5.1.6",
     "react": "^19.2.0",
-    "react-confetti": "^6.4.0",
     "react-dom": "^19.2.0",
-    "vite": "^7.2.1"
+    "vite": "^7.2.2"
   }
 }
