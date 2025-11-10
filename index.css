@@ -86,10 +86,17 @@ form{
 }
 
 .choices input[type="radio"]{
+	position: absolute;
 	opacity: 0;
-	position: fixed;
 	width: 0;
+	height: 0;
 }
+
+.choices input[type="radio"]:focus + label {
+	outline: 2px solid #4D5B9E;
+	outline-offset: 2px;
+}
+
 
 .choices label{
 	display: inline-block;
@@ -115,6 +122,7 @@ form{
 .choices input[type="radio"]:checked + label{
 	background-color: #D6DBF5;
 	border: 1px solid #D6DBF5;
+	outline: none;
 }
 
 /* Disable hover and pointer for disabled inputs */
@@ -140,7 +148,6 @@ form{
 	background-color: #F8BCBC;
 	border: 1px solid #F8BCBC;
 }
-
 
 
 form button{
@@ -176,4 +183,12 @@ form h3 {
 	flex-direction: row;
 	align-items: center;
 	gap: 1rem;
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap; border: 0;
 }

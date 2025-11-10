@@ -19,11 +19,19 @@
 	<main>
 		<form>
 			<section class="question-section">
-				<h2 class="question-text" id="question1Question">How would one say goodbye in Spanish?</h2>
-				<ul class="choices">
+
+				<h2 class="question-text" id="question1-label">How would one say goodbye in Spanish?</h2>
+
+				<p id="question1-help" class="sr-only">
+					Select one answer. Use arrow keys to move between options.
+				</p>
+
+				<ul class="choices" 
+					role="radiogroup" aria-labelledby="question1-label" aria-describedby="question1-help"
+				>
 
 					<li>
-						<input type="radio" id="question1Choice1" name="question1" value="Adios">
+						<input type="radio" id="question1Choice1" name="question1" value="Adios" required>
 						<label for="question1Choice1">Adios</label>
 					</li>
 					<li>
