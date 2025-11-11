@@ -5,9 +5,9 @@
   "main": "vite.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"dev": "vite",
-	"build": "vite build",
-	"preview": "vite preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/dakotawntzll/Scrimba-QuizzicalApp#readme",
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.0",
+    "he": "^1.2.0",
     "nanoid": "^5.1.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
