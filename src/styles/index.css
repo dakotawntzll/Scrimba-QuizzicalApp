@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, body, html{
 html {
 	scrollbar-width: thin;
 	scrollbar-color: #fef297 #b2c1d1;
-	scrollbar-gutter: stable both-edges;
+	/* scrollbar-gutter: stable both-edges; */
 }
 
 body {
