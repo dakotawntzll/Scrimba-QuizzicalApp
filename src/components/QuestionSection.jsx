@@ -18,7 +18,7 @@ export default function QuestionSection (props){
 		}
 
 		return (
-			<li key={`question${props.questionIndex}Choice${index}`}>
+			<li key={`question${props.questionIndex}Choice${index}`} role="none">
 				
 				<input 
 					type="radio" 
